@@ -1,4 +1,4 @@
-const randomQuetos = 'http://api.quotable.io/random'
+const randomQuetos = 'https://api.quotable.io/random'
 const quoteDisplayElement = document.getElementById('quetodisplay')
 const clearQuotesInput = document.getElementById('quetoinput')
 const typingTimer = document.getElementById('timer')
