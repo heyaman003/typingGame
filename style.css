@@ -1,0 +1,61 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+body{
+ display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: url(imgbg.png);
+   background-repeat: no-repeat;
+    background-size:cover;
+}
+body,.container{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+       background:linear-gradient(to right,#fffa6d,#dcc409) ;
+       padding: 1rem;
+       border-radius: 10px;
+       width: 700px;
+       max-width:90% ;
+}
+.timer{
+       position: absolute;
+       top: 3rem;
+       font-size: 4rem;
+       color: #fffa6d;
+       font-weight: bold;
+}
+.quteodisplay{
+       margin-bottom: 1rem;
+       margin-left: 1rem;
+       margin-right: 1rem;
+       font-size: 1.2rem;
+}
+.queto-input{
+   background-color: #0c2942;
+   border: 3px solid rgb(255, 250, 254) ;  
+   outline: none; 
+   color: white; 
+   width: 100%;
+   height: 10rem;
+   margin: auto;
+   resize: none;
+  padding: .5rem .8rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  letter-spacing:calc(0.000000001*1rem);
+}
+.queto-input:focus{
+       border-color: rgb(0, 0, 0);
+}
+.correct{
+       color:green
+}
+.incorrect{
+       color: red;
+       text-decoration: underline;
+}
